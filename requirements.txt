@@ -2,3 +2,8 @@ django
 djangorestframework
 markdown
 django-filter
+djangorestframework-jsonp
+djangorestframework-xml
+djangorestframework-csv
+django-crispy-forms
+
