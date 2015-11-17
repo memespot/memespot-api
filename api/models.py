@@ -26,9 +26,9 @@ class Tag(models.Model):
     created = models.DateTimeField(auto_now_add=True, db_index=True)
 
     def __str__(self):
-        return str('[%s] %s'%(self.uuid, self.url))
+        return str('[%s] %s'%(self.uuid, self.text))
     def __unicode__(self):
-        return str('[%s] %s'%(self.uuid, self.url))
+        return str('[%s] %s'%(self.uuid, self.text))
 
     class Meta:
         ordering = ('created', )
