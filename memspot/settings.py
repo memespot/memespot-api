@@ -109,7 +109,7 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10,
     'DEFAULT_PARSER_CLASSES': (
         'rest_framework.parsers.JSONParser',
-        'rest_framework.parsers.FormParser',
+        'rest_framework.parsers.MultiPartParser',
         'rest_framework_xml.parsers.XMLParser',
     ),
     'DEFAULT_RENDERER_CLASSES': (

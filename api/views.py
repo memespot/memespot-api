@@ -1,3 +1,8 @@
+# -*- coding: utf-8 -*-
+import sys
+reload(sys)
+sys.setdefaultencoding('utf-8')
+
 from django.shortcuts import render
 
 from rest_framework import generics
