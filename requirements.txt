@@ -6,4 +6,5 @@ djangorestframework-jsonp
 djangorestframework-xml
 djangorestframework-csv
 django-crispy-forms
+django-debug-toolbar
 
