@@ -20,7 +20,7 @@ class Image(models.Model):
 
 class Tag(models.Model):
     uuid = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
-    image = models.ForeignKey(Image)
+    image = models.ForeignKey(Image, related_name='tags')
     text = models.CharField(max_length=256)
     updated = models.DateTimeField(auto_now=True, db_index=True)
     created = models.DateTimeField(auto_now_add=True, db_index=True)
