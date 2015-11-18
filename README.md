@@ -1,1 +1,1 @@
-# memspot-api
+# memespot-api
