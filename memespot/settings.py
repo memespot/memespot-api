@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '0u@=)-ck@dvv$u#!dga6zr7$5)kkzmu#a($@@7sex8%at9k6=d'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['*']
 
@@ -86,7 +86,7 @@ DATABASES = {
         'NAME': 'memespot',
         'USER': 'admin',
         'PASSWORD': 'memespot',
-        'HOST': '173.194.255.92',
+        'HOST': '',
     }
 }
 
@@ -111,6 +111,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_ROOT = BASE_DIR + '/static/'
 STATICFILES_DIRS = (
+    STATIC_ROOT,
 )
 
 
