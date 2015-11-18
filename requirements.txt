@@ -7,4 +7,5 @@ djangorestframework-xml
 djangorestframework-csv
 django-crispy-forms
 django-debug-toolbar
+MySQL-python
 
